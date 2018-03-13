@@ -25,21 +25,21 @@ and Chalktalk continues to evolve.
 
 ## Installation and Usage
 
-[Installation instructions can be found in the wiki](https://github.com/kenperlin/chalktalk/wiki/Installation-and-Running).
+Installation instructions can be found [in the wiki](https://github.com/kenperlin/chalktalk/wiki/Installation-and-Running). A brief tutorial on how to use the system [can be found there as well](https://github.com/kenperlin/chalktalk/wiki/Introduction-to-Chalktalk).
 
-More complete documentation on the usage of the system can be found there as well, but is a work in progress.
+## Contribution
 
-## Creating and Contributing
+See [the contribution guidelines](/CONTRIBUTING.md) to learn how to contribute to Chalktalk.
 
-Contributions to the core codebase and sketch library are welcome.
+## Sketch Creation
 
 To create your own sketch, create a new .js file (nameOfMySketch.js) or copy a template (from sketch_templates) into the sketches directory. 
 
 In your file, change the value of `this.label` and begin customizing your new sketch.
 
+Note: a soon-to-be-enabled update will implement a sketch tagging system where each sketch is associated with one or more tags (attributes / descriptions), so new pull requests with sketches to be added should use `this.tag = "tagname"` or `this.tags = ["tagname1", "tagname2"]` within the function body of a sketch file (similar to `this.label` and `this.labels`). Tag names should be general enough to apply to multiple sketches.
+
 [Further information on sketch creation can be found in the wiki](https://github.com/kenperlin/chalktalk/wiki/Creating-a-Sketch).
 
 ## License 
 MIT
-
-
